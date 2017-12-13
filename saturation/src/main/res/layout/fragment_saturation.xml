@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootBrightness"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/controller">
+
+        <com.hoanganhtuan95ptit.saturation.SaturationView
+            android:id="@+id/saturationView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/ivLoading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:indicatorColor="#FFE325"
+            app:indicatorName="PacmanIndicator" />
+
+        <LinearLayout
+            android:id="@+id/llProcess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saturation"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tvProcess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp" />
+        </LinearLayout>
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/controller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <com.hoanganhtuan95ptit.library.TwoLineSeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="40dp"
+            app:high_color="#FFE325"
+            app:line_color="@color/colorAccent"
+            app:line_width="1dp"
+            app:nail_color="#FFE325"
+            app:nail_radius="3dp"
+            app:nail_stroke_width="1dp"
+            app:thumb_color="#FFE325"
+            app:thumb_radius="6dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:id="@+id/ivCancel"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:src="@drawable/nav_cancel"
+                android:tint="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Saturation"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/ivCheck"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:src="@drawable/nav_check"
+                android:tint="@color/colorAccent" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

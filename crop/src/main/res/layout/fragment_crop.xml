@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootCrop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/controller">
+
+        <com.yalantis.ucrop.view.UCropView
+            android:id="@+id/ivCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/ivLoading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:indicatorColor="#FFE325"
+            app:indicatorName="PacmanIndicator" />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/controller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:id="@+id/ivCancel"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:src="@drawable/nav_cancel"
+                android:tint="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Crop"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/ivCheck"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:src="@drawable/nav_check"
+                android:tint="@color/colorAccent" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

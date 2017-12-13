@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EditPhoto.iml" filepath="$PROJECT_DIR$/EditPhoto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/brightness/brightness.iml" filepath="$PROJECT_DIR$/brightness/brightness.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contrast/contrast.iml" filepath="$PROJECT_DIR$/contrast/contrast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crop/crop.iml" filepath="$PROJECT_DIR$/crop/crop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fillter/fillter.iml" filepath="$PROJECT_DIR$/fillter/fillter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rotate/rotate.iml" filepath="$PROJECT_DIR$/rotate/rotate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/saturation/saturation.iml" filepath="$PROJECT_DIR$/saturation/saturation.iml" />
+    </modules>
+  </component>
+</project>

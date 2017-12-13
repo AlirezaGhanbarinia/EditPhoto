@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorWhile</color>
+    <color name="colorAccent">@color/colorBlack</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhile">#FFFFFF</color>
+
+</resources>
