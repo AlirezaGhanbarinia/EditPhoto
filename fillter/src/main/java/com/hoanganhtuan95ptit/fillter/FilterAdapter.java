@@ -5,10 +5,11 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.squareup.picasso.Picasso;
+
+import de.hdodenhof.circleimageview.CircleImageView;
 
 /**
  * Created by Hoang Anh Tuan on 12/3/2017.
@@ -67,7 +68,7 @@ class FilterAdapter extends BaseAdapter<FilterModel> {
     }
 
     static class ViewHolder extends RecyclerView.ViewHolder {
-        ImageView iv;
+        CircleImageView iv;
         LinearLayout item;
 
         ViewHolder(View view) {
