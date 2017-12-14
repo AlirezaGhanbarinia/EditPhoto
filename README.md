@@ -10,27 +10,27 @@ android library EditPhoto. Image Editor for Android
 # ️Features 
 * Crop with 
 ```java
-((EditPhotoActivity) getActivity()).addFragmentToStack(CropFragment.create(outputUrl, this));
+((EditPhotoActivity) getActivity()).addFragmentToStack(CropFragment.create(inputUrl, this));
 ```
 * Filter with 
 ```java
-((EditPhotoActivity) getActivity()).addFragmentToStack(FilterFragment.create(outputUrl, this));
+((EditPhotoActivity) getActivity()).addFragmentToStack(FilterFragment.create(inputUrl, this));
 ```
 * Rotate with 
 ```java
-((EditPhotoActivity) getActivity()).addFragmentToStack(RotateFragment.create(outputUrl, this));
+((EditPhotoActivity) getActivity()).addFragmentToStack(RotateFragment.create(inputUrl, this));
 ```
 * Saturation with 
 ```java
-((EditPhotoActivity) getActivity()).addFragmentToStack(SaturationFragment.create(outputUrl, this));
+((EditPhotoActivity) getActivity()).addFragmentToStack(SaturationFragment.create(inputUrl, this));
 ```
 * Brightness with 
 ```java
-((EditPhotoActivity) getActivity()).addFragmentToStack(BrightnessFragment.create(outputUrl, this));
+((EditPhotoActivity) getActivity()).addFragmentToStack(BrightnessFragment.create(inputUrl, this));
 ```
 * Contrast with 
 ```java
-((EditPhotoActivity) getActivity()).addFragmentToStack(ContrastFragment.create(outputUrl, this));
+((EditPhotoActivity) getActivity()).addFragmentToStack(ContrastFragment.create(inputUrl, this));
 ```
 
 
@@ -59,22 +59,22 @@ android library EditPhoto. Image Editor for Android
 ```java
         switch (type) {
             case Crop:
-                ((EditPhotoActivity) getActivity()).addFragmentToStack(CropFragment.create(outputUrl, this));
+                ((EditPhotoActivity) getActivity()).addFragmentToStack(CropFragment.create(inputUrl, this));
                 break;
             case Filter:
-                ((EditPhotoActivity) getActivity()).addFragmentToStack(FilterFragment.create(outputUrl, this));
+                ((EditPhotoActivity) getActivity()).addFragmentToStack(FilterFragment.create(inputUrl, this));
                 break;
             case Rotate:
-                ((EditPhotoActivity) getActivity()).addFragmentToStack(RotateFragment.create(outputUrl, this));
+                ((EditPhotoActivity) getActivity()).addFragmentToStack(RotateFragment.create(inputUrl, this));
                 break;
             case Saturation:
-                ((EditPhotoActivity) getActivity()).addFragmentToStack(SaturationFragment.create(outputUrl, this));
+                ((EditPhotoActivity) getActivity()).addFragmentToStack(SaturationFragment.create(inputUrl, this));
                 break;
             case Brightness:
-                ((EditPhotoActivity) getActivity()).addFragmentToStack(BrightnessFragment.create(outputUrl, this));
+                ((EditPhotoActivity) getActivity()).addFragmentToStack(BrightnessFragment.create(inputUrl, this));
                 break;
             case Contrast:
-                ((EditPhotoActivity) getActivity()).addFragmentToStack(ContrastFragment.create(outputUrl, this));
+                ((EditPhotoActivity) getActivity()).addFragmentToStack(ContrastFragment.create(inputUrl, this));
                 break;
         }
 ```
