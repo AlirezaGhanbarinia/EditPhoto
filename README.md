@@ -6,13 +6,6 @@ android library EditPhoto. Image Editor for Android
 
 [<img src="/store/Gif.gif">](https://play.google.com/store/apps/details?id=com.hoanganhtuan95ptit.camdoc_business) 
 
-# Project
-
-
-Icon | Name | Link Google Play
------------- | ------------ | -------------
-[<img src="/store/ic_launcher.png">](https://play.google.com/store/apps/details?id=com.hoanganhtuan95ptit.camdoc_business) | [CamDoc - Document Scanner, PDF Scanner App 2018](https://play.google.com/store/apps/details?id=com.hoanganhtuan95ptit.camdoc_business) | [<img src="/store/Store.png">](https://play.google.com/store/apps/details?id=com.hoanganhtuan95ptit.camdoc_business)
-
 
 # ️Features 
 * Crop with 
@@ -90,3 +83,11 @@ Icon | Name | Link Google Play
  Name | Library
 ------------ | -------------
 Yalantis | [UCrop](https://github.com/Yalantis/uCrop) 
+
+
+# Project
+
+
+Icon | Name | Link Google Play
+------------ | ------------ | -------------
+[<img src="/store/ic_launcher.png">](https://play.google.com/store/apps/details?id=com.hoanganhtuan95ptit.camdoc_business) | [CamDoc - Document Scanner, PDF Scanner App 2018](https://play.google.com/store/apps/details?id=com.hoanganhtuan95ptit.camdoc_business) | [<img src="/store/Store.png">](https://play.google.com/store/apps/details?id=com.hoanganhtuan95ptit.camdoc_business)
