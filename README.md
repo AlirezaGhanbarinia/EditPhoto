@@ -2,9 +2,11 @@
 
 android library EditPhoto. Image Editor for Android
 
-# Demo
+# Project
 
-[<img src="/store/Gif.gif">](https://play.google.com/store/apps/details?id=com.hoanganhtuan95ptit.camdoc_business) 
+Icon | Name | Link Google Play
+------------ | ------------ | -------------
+[<img src="/store/ic_launcher.png">](https://play.google.com/store/apps/details?id=com.hoanganhtuan95ptit.camdoc_productivity) | [CamDoc - Document Scanner, PDF Scanner App 2018](https://play.google.com/store/apps/details?id=com.hoanganhtuan95ptit.camdoc_productivity) | [<img src="/store/Store.png">](https://play.google.com/store/apps/details?id=com.hoanganhtuan95ptit.camdoc_productivity)
 
 
 # ️Features 
@@ -83,9 +85,3 @@ android library EditPhoto. Image Editor for Android
  Name | Library
 ------------ | -------------
 Yalantis | [UCrop](https://github.com/Yalantis/uCrop) 
-
-
-# Project
-
-
-[<img src="/store/Store.png">](https://play.google.com/store/apps/details?id=com.hoanganhtuan95ptit.camdoc_business)
